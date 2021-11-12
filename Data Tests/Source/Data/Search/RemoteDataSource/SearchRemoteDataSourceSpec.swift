@@ -9,7 +9,7 @@ import Nimble
 import Quick
 import Moya
 
-@testable import TouchTunes_Domain
+@testable import TouchTunes_Data
 
 class SearchRemoteDataSourceSpec: QuickSpec {
     override func spec() {

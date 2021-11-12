@@ -5,7 +5,7 @@
 //  Created by Ney Moura on 11/06/21.
 //
 
-@testable import TouchTunes_Domain
+@testable import TouchTunes_Data
 
 enum ApiReference {
     enum Search {

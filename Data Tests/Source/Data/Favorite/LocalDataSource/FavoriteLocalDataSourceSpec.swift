@@ -5,7 +5,7 @@
 //  Created by Ney Moura on 19/10/21.
 //
 
-@testable import TouchTunes_Domain
+@testable import TouchTunes_Data
 
 import Nimble
 import Quick
