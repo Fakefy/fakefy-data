@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "67923EAE26729D8A0056FCC8"
-               BuildableName = "TouchTunes_Domain.framework"
+               BuildableName = "TouchTunes_Data.framework"
                BlueprintName = "TouchTunes Data"
                ReferencedContainer = "container:TouchTunes Data.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "67923EAE26729D8A0056FCC8"
-            BuildableName = "TouchTunes_Domain.framework"
+            BuildableName = "TouchTunes_Data.framework"
             BlueprintName = "TouchTunes Data"
             ReferencedContainer = "container:TouchTunes Data.xcodeproj">
          </BuildableReference>
@@ -44,7 +44,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "67923EB726729D8A0056FCC8"
-               BuildableName = "TouchTunes Domain Tests.xctest"
+               BuildableName = "TouchTunes Data Tests.xctest"
                BlueprintName = "TouchTunes Data Tests"
                ReferencedContainer = "container:TouchTunes Data.xcodeproj">
             </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "67923EAE26729D8A0056FCC8"
-            BuildableName = "TouchTunes_Domain.framework"
+            BuildableName = "TouchTunes_Data.framework"
             BlueprintName = "TouchTunes Data"
             ReferencedContainer = "container:TouchTunes Data.xcodeproj">
          </BuildableReference>
