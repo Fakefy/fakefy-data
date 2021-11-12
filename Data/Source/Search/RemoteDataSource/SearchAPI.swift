@@ -6,6 +6,7 @@
 //
 
 import Moya
+import TouchTunes_Domain
 
 enum SearchAPI {
     case search(request: SearchRequest, config: ITunesConfig)

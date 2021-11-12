@@ -6,6 +6,7 @@
 //
 
 @testable import TouchTunes_Data
+@testable import TouchTunes_Domain
 
 import Nimble
 import Quick

@@ -3,6 +3,7 @@ inhibit_all_warnings!
 
 def default_pods
   pod 'Moya', '14.0.0'
+  pod 'TouchTunes-Domain', :git => "https://github.com/neymoura/touchtunes-domain", :tag => '0.0.5'
 end
 
 target 'TouchTunes Data' do

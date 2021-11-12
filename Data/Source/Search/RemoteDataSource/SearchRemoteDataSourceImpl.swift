@@ -6,6 +6,7 @@
 //
 
 import Moya
+import TouchTunes_Domain
 
 class SearchRemoteDataSourceImpl {
     

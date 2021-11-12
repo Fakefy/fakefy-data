@@ -6,11 +6,13 @@ PODS:
     - Alamofire (~> 5.0)
   - Nimble (9.2.0)
   - Quick (4.0.0)
+  - TouchTunes-Domain (0.0.5)
 
 DEPENDENCIES:
   - Moya (= 14.0.0)
   - Nimble (= 9.2.0)
   - Quick (= 4.0.0)
+  - TouchTunes-Domain (from `https://github.com/neymoura/touchtunes-domain`, tag `0.0.5`)
 
 SPEC REPOS:
   trunk:
@@ -19,12 +21,23 @@ SPEC REPOS:
     - Nimble
     - Quick
 
+EXTERNAL SOURCES:
+  TouchTunes-Domain:
+    :git: https://github.com/neymoura/touchtunes-domain
+    :tag: 0.0.5
+
+CHECKOUT OPTIONS:
+  TouchTunes-Domain:
+    :git: https://github.com/neymoura/touchtunes-domain
+    :tag: 0.0.5
+
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+  TouchTunes-Domain: 740792062ca4c72807e0df91125e95f274c69c9c
 
-PODFILE CHECKSUM: 909d7f1f4591620bc761658272400a2b34e691ec
+PODFILE CHECKSUM: 43d6568e0686af67aab17787dd89963edbece3fc
 
 COCOAPODS: 1.11.2

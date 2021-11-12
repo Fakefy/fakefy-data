@@ -5,6 +5,8 @@
 //  Created by Ney Moura on 01/11/21.
 //
 
+import TouchTunes_Domain
+
 class FavoriteRepositoryImpl {
     
     let localDataSource: FavoriteLocalDataSource

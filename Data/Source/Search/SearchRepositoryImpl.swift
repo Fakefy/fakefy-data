@@ -5,6 +5,8 @@
 //  Created by Ney Moura on 30/10/21.
 //
 
+import TouchTunes_Domain
+
 class SearchRepositoryImpl {
     let remoteDataSource: SearchRemoteDataSource
     

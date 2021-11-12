@@ -10,6 +10,7 @@ import Quick
 import Moya
 
 @testable import TouchTunes_Data
+@testable import TouchTunes_Domain
 
 class SearchRemoteDataSourceSpec: QuickSpec {
     override func spec() {
