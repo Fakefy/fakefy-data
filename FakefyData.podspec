@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.source        = { :git => "https://github.com/Fakefy/fakefy-data.git", :tag => "#{spec.version}" }
   spec.source_files  = "Classes", "Data/**/*.{h,m,swift}"
-  spec.resource_bundles = { "#{spec.name}" => ["#{spec.name}/**/*.xcdatamodeld"] }
+  spec.resource_bundles = { "#{spec.name}" => ["Data/**/*.xcdatamodeld"] }
   spec.exclude_files = "Classes/Exclude"
 
   spec.dependency "Moya", "14.0.0"
