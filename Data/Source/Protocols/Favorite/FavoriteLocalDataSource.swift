@@ -1,11 +1,11 @@
 //
 //  FavoriteLocalDataSource.swift
-//  TouchTunes SDK
+//  FakefyData
 //
 //  Created by Ney Moura on 11/11/21.
 //
 
-import TouchTunes_Domain
+import FakefyDomain
 
 protocol FavoriteLocalDataSource {
     func saveAlbum(album: Album, completion: (Result<Void, ITunesError>) -> Void)

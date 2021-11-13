@@ -1,6 +1,6 @@
 //
 //  Nimble+BeResult.swift
-//  TouchTunes SDK
+//  FakefyData
 //
 //  Created by Ney Moura on 04/10/21.
 //

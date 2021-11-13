@@ -1,43 +1,34 @@
 PODS:
   - Alamofire (5.4.3)
+  - FakefyDomain (0.0.1)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
   - Nimble (9.2.0)
   - Quick (4.0.0)
-  - TouchTunes-Domain (0.0.5)
 
 DEPENDENCIES:
+  - FakefyDomain (= 0.0.1)
   - Moya (= 14.0.0)
   - Nimble (= 9.2.0)
   - Quick (= 4.0.0)
-  - TouchTunes-Domain (from `https://github.com/neymoura/touchtunes-domain`, tag `0.0.5`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FakefyDomain
     - Moya
     - Nimble
     - Quick
 
-EXTERNAL SOURCES:
-  TouchTunes-Domain:
-    :git: https://github.com/neymoura/touchtunes-domain
-    :tag: 0.0.5
-
-CHECKOUT OPTIONS:
-  TouchTunes-Domain:
-    :git: https://github.com/neymoura/touchtunes-domain
-    :tag: 0.0.5
-
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  FakefyDomain: 70a0dad8cf110a1c54a2996375370f07535f080d
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
-  TouchTunes-Domain: 740792062ca4c72807e0df91125e95f274c69c9c
 
-PODFILE CHECKSUM: 43d6568e0686af67aab17787dd89963edbece3fc
+PODFILE CHECKSUM: 28e084a94e4eb95d87756cbcd8e82b56735144f8
 
 COCOAPODS: 1.11.2

@@ -1,12 +1,12 @@
 //
 //  SearchRemoteDataSource.swift
-//  TouchTunes SDK
+//  FakefyData
 //
 //  Created by Ney Moura on 10/06/21.
 //
 
 import Moya
-import TouchTunes_Domain
+import FakefyDomain
 
 class SearchRemoteDataSourceImpl {
     

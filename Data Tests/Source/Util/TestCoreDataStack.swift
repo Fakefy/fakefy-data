@@ -1,6 +1,6 @@
 //
 //  TestCoreDataStack.swift
-//  TouchTunes SDK Tests
+//  FakefyData Tests
 //
 //  Created by Ney Moura on 19/10/21.
 //

@@ -1,12 +1,12 @@
 //
 //  ApiReference.swift
-//  TouchTunes SDK Tests
+//  FakefyData Tests
 //
 //  Created by Ney Moura on 11/06/21.
 //
 
-@testable import TouchTunes_Data
-@testable import TouchTunes_Domain
+@testable import FakefyData
+@testable import FakefyDomain
 
 enum ApiReference {
     enum Search {

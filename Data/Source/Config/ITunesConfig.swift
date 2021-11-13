@@ -1,6 +1,6 @@
 //
 //  ITunesConfig.swift
-//  TouchTunes SDK
+//  FakefyData
 //
 //  Created by Ney Moura on 10/06/21.
 //

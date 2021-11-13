@@ -3,8 +3,8 @@
 # Exit on error
 set -eo pipefail
 
-SCHEME='TouchTunes Data'
-WORKSPACE='TouchTunes Data.xcworkspace'
+SCHEME='FakefyData'
+WORKSPACE='FakefyData.xcworkspace'
 
 DESTINATION='platform=iOS Simulator,name=iPhone 13,OS=15.0'
 

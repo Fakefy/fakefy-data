@@ -1,12 +1,12 @@
 //
 //  FavoriteLocalDataSourceSpec.swift
-//  TouchTunes SDK
+//  FakefyData
 //
 //  Created by Ney Moura on 19/10/21.
 //
 
-@testable import TouchTunes_Data
-@testable import TouchTunes_Domain
+@testable import FakefyData
+@testable import FakefyDomain
 
 import Nimble
 import Quick
@@ -42,7 +42,7 @@ extension FavoriteLocalDataSourceSpec {
         let context = container.newBackgroundContext()
         var hadError = false
         
-        let albumData: Data = Mock.dataFromJson(named: "search-success")
+        let albumData: Data = Mock().dataFromJson(named: "search-success")
         let album: Album = try! JSONDecoder().decode([Album].self, from: albumData, atKeyPath: "results")[.zero]
         
         let newItem = AlbumMO(context: context)
@@ -90,7 +90,7 @@ extension FavoriteLocalDataSourceSpec {
         var hadError = false
         var result: [AlbumMO] = []
         
-        let albumData: Data = Mock.dataFromJson(named: "search-success")
+        let albumData: Data = Mock().dataFromJson(named: "search-success")
         let album: Album = try! JSONDecoder().decode([Album].self, from: albumData, atKeyPath: "results")[.zero]
         
         let newItem = AlbumMO(context: context)

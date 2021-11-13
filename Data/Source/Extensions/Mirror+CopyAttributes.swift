@@ -1,6 +1,6 @@
 //
 //  Mirror+CopyAttributes.swift
-//  TouchTunes SDK
+//  FakefyData
 //
 //  Created by Ney Moura on 01/11/21.
 //

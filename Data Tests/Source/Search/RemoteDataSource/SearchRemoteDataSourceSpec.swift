@@ -1,6 +1,6 @@
 //
 //  SearchRemoteDataSourceSpec.swift
-//  TouchTunes SDK
+//  FakefyData
 //
 //  Created by Ney Moura on 10/06/21.
 //
@@ -9,8 +9,8 @@ import Nimble
 import Quick
 import Moya
 
-@testable import TouchTunes_Data
-@testable import TouchTunes_Domain
+@testable import FakefyData
+@testable import FakefyDomain
 
 class SearchRemoteDataSourceSpec: QuickSpec {
     override func spec() {
@@ -33,8 +33,8 @@ extension SearchRemoteDataSourceSpec {
     func searchAlbumReturningSuccess() {
         
         // Given
-        let mockData = Mock.dataFromJson(named: "search-success")
-        let mock = Mock.mock(api: ApiReference.Search.search, status: 200, data: mockData)
+        let mockData = Mock().dataFromJson(named: "search-success")
+        let mock = Mock().mock(api: ApiReference.Search.search, status: 200, data: mockData)
         let remote = DataSourceFactory.makeSearchRemoteDataSource(endpointClosure: mock, stubClosure: MoyaProvider<SearchAPI>.immediatelyStub)
         let searchRequest = SearchRequest(term: "", country: "", media: "", entity: "", attribute: "")
         let expectation = expectation(description: "network-expectation")
@@ -77,7 +77,7 @@ extension SearchRemoteDataSourceSpec {
     func searchAlbumReturningFailure() {
         
         // Given
-        let mock = Mock.mock(api: ApiReference.Search.search, status: 401, data: Data())
+        let mock = Mock().mock(api: ApiReference.Search.search, status: 401, data: Data())
         let remote = DataSourceFactory.makeSearchRemoteDataSource(endpointClosure: mock, stubClosure: MoyaProvider<SearchAPI>.immediatelyStub)
         let searchRequest = SearchRequest(term: "", country: "", media: "", entity: "", attribute: "")
         let expectation = expectation(description: "network-expectation")
