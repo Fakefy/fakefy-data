@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = "FakefyData"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.3"
   spec.summary       = "Fakefy Data"
   spec.description   = "Fakefy Data module"
 
@@ -11,11 +11,11 @@ Pod::Spec.new do |spec|
   spec.swift_version          = "5.3"
   spec.ios.deployment_target  = "14.5"
 
-  spec.source        = { :git => "https://github.com/Fakefy/fakefy-data.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/fakefy/fakefy-data.git", :tag => "#{spec.version}" }
   spec.source_files  = "Classes", "Data/**/*.{h,m,swift}"
   spec.resource_bundles = { "#{spec.name}" => ["Data/**/*.xcdatamodeld"] }
   spec.exclude_files = "Classes/Exclude"
 
   spec.dependency "Moya", "14.0.0"
-  spec.dependency "FakefyDomain", "0.0.1"
+  spec.dependency "FakefyDomain", "0.0.3"
 end

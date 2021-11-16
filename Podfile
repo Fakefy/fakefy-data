@@ -3,7 +3,7 @@ inhibit_all_warnings!
 
 def default_pods
   pod 'Moya', '14.0.0'
-  pod 'FakefyDomain', '0.0.1'
+  pod 'FakefyDomain', '0.0.3'
 end
 
 target 'FakefyData' do

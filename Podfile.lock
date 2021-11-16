@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.4.3)
-  - FakefyDomain (0.0.1)
+  - FakefyDomain (0.0.3)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
@@ -9,7 +9,7 @@ PODS:
   - Quick (4.0.0)
 
 DEPENDENCIES:
-  - FakefyDomain (= 0.0.1)
+  - FakefyDomain (= 0.0.3)
   - Moya (= 14.0.0)
   - Nimble (= 9.2.0)
   - Quick (= 4.0.0)
@@ -24,11 +24,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  FakefyDomain: 70a0dad8cf110a1c54a2996375370f07535f080d
+  FakefyDomain: 96169deae96a1afe2c1f44443bbb3b1018ab05aa
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
 
-PODFILE CHECKSUM: 28e084a94e4eb95d87756cbcd8e82b56735144f8
+PODFILE CHECKSUM: e56f82fcf4fe911c5ea82e824432935b13f8af29
 
 COCOAPODS: 1.11.2

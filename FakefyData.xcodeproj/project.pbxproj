@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66E3045A47AC832BD6908C60 /* Pods_FakefyData_FakefyData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FA8E2E4B5495CBB8F5A9A3 /* Pods_FakefyData_FakefyData_Tests.framework */; };
+		40DD073320F469B55A883E78 /* Pods_FakefyData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E6F7A6CE48047930F7122 /* Pods_FakefyData.framework */; };
 		671AF779271FB61400BC6292 /* FavoriteLocalDataSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6745CD56271FB14100578268 /* FavoriteLocalDataSourceSpec.swift */; };
 		671AF77C271FB70B00BC6292 /* TestCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671AF77B271FB70B00BC6292 /* TestCoreDataStack.swift */; };
 		671FE866272DE2B700357032 /* SearchRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FE865272DE2B700357032 /* SearchRepositoryMock.swift */; };
@@ -32,7 +32,7 @@
 		67923EF72673FE2E0056FCC8 /* search-success.json in Resources */ = {isa = PBXBuildFile; fileRef = 67923EF62673FE2E0056FCC8 /* search-success.json */; };
 		67EF2CE02728376800BC4996 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67EF2CDE2728376800BC4996 /* DataModel.xcdatamodeld */; };
 		67EF2CE12728376800BC4996 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67EF2CDE2728376800BC4996 /* DataModel.xcdatamodeld */; };
-		F91B14BA264BCD9624F42EEF /* Pods_FakefyData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E4A340B5AFC4633B20C265 /* Pods_FakefyData.framework */; };
+		C3A2C9B5A965D7DB01514F8E /* Pods_FakefyData_FakefyData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4400F986E604EEABB1C8FC01 /* Pods_FakefyData_FakefyData_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +41,14 @@
 			containerPortal = 67923EA626729D8A0056FCC8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 67923EAE26729D8A0056FCC8;
-			remoteInfo = "touchtunes-sdk";
+			remoteInfo = FakefyData;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A24DD51E4DBC10AE9C9EF97 /* Pods-FakefyData-FakefyData Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakefyData-FakefyData Tests.debug.xcconfig"; path = "Target Support Files/Pods-FakefyData-FakefyData Tests/Pods-FakefyData-FakefyData Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5CCB3A4766F7CADAA56DBBEB /* Pods-FakefyData-FakefyData Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakefyData-FakefyData Tests.release.xcconfig"; path = "Target Support Files/Pods-FakefyData-FakefyData Tests/Pods-FakefyData-FakefyData Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0597EA87547C5094EFFA5802 /* Pods-FakefyData-FakefyData Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakefyData-FakefyData Tests.release.xcconfig"; path = "Target Support Files/Pods-FakefyData-FakefyData Tests/Pods-FakefyData-FakefyData Tests.release.xcconfig"; sourceTree = "<group>"; };
+		27867717063193472441C921 /* Pods-FakefyData-FakefyData Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakefyData-FakefyData Tests.debug.xcconfig"; path = "Target Support Files/Pods-FakefyData-FakefyData Tests/Pods-FakefyData-FakefyData Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4400F986E604EEABB1C8FC01 /* Pods_FakefyData_FakefyData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakefyData_FakefyData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		671AF77B271FB70B00BC6292 /* TestCoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoreDataStack.swift; sourceTree = "<group>"; };
 		671FE865272DE2B700357032 /* SearchRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryMock.swift; sourceTree = "<group>"; };
 		671FE867272DEE4000357032 /* JSONDecoder+AtKeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+AtKeyPath.swift"; sourceTree = "<group>"; };
@@ -74,10 +75,9 @@
 		67923EF32673FAEE0056FCC8 /* ApiReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiReference.swift; sourceTree = "<group>"; };
 		67923EF62673FE2E0056FCC8 /* search-success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "search-success.json"; sourceTree = "<group>"; };
 		67EF2CDF2728376800BC4996 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		729BC9B57BA3906F67625FE8 /* Pods-FakefyData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakefyData.debug.xcconfig"; path = "Target Support Files/Pods-FakefyData/Pods-FakefyData.debug.xcconfig"; sourceTree = "<group>"; };
-		750D1048F4490A87913C0E2C /* Pods-FakefyData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakefyData.release.xcconfig"; path = "Target Support Files/Pods-FakefyData/Pods-FakefyData.release.xcconfig"; sourceTree = "<group>"; };
-		B2FA8E2E4B5495CBB8F5A9A3 /* Pods_FakefyData_FakefyData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakefyData_FakefyData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3E4A340B5AFC4633B20C265 /* Pods_FakefyData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakefyData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740E6F7A6CE48047930F7122 /* Pods_FakefyData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakefyData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A432A8BF7458D16D5A17C3 /* Pods-FakefyData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakefyData.debug.xcconfig"; path = "Target Support Files/Pods-FakefyData/Pods-FakefyData.debug.xcconfig"; sourceTree = "<group>"; };
+		FC8A9BF7E03AEAA81903196E /* Pods-FakefyData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakefyData.release.xcconfig"; path = "Target Support Files/Pods-FakefyData/Pods-FakefyData.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F91B14BA264BCD9624F42EEF /* Pods_FakefyData.framework in Frameworks */,
+				40DD073320F469B55A883E78 /* Pods_FakefyData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67923EB926729D8A0056FCC8 /* FakefyData.framework in Frameworks */,
-				66E3045A47AC832BD6908C60 /* Pods_FakefyData_FakefyData_Tests.framework in Frameworks */,
+				C3A2C9B5A965D7DB01514F8E /* Pods_FakefyData_FakefyData_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,12 +104,21 @@
 		260B9629551F77444E14309F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				729BC9B57BA3906F67625FE8 /* Pods-FakefyData.debug.xcconfig */,
-				750D1048F4490A87913C0E2C /* Pods-FakefyData.release.xcconfig */,
-				2A24DD51E4DBC10AE9C9EF97 /* Pods-FakefyData-FakefyData Tests.debug.xcconfig */,
-				5CCB3A4766F7CADAA56DBBEB /* Pods-FakefyData-FakefyData Tests.release.xcconfig */,
+				C9A432A8BF7458D16D5A17C3 /* Pods-FakefyData.debug.xcconfig */,
+				FC8A9BF7E03AEAA81903196E /* Pods-FakefyData.release.xcconfig */,
+				27867717063193472441C921 /* Pods-FakefyData-FakefyData Tests.debug.xcconfig */,
+				0597EA87547C5094EFFA5802 /* Pods-FakefyData-FakefyData Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4AD1C987D1965A535B54F1D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				740E6F7A6CE48047930F7122 /* Pods_FakefyData.framework */,
+				4400F986E604EEABB1C8FC01 /* Pods_FakefyData_FakefyData_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		671FE861272DCD5600357032 /* Config */ = {
@@ -126,31 +135,6 @@
 				671FE865272DE2B700357032 /* SearchRepositoryMock.swift */,
 			);
 			path = Repository;
-			sourceTree = "<group>";
-		};
-		6736D4F4273D939500564FC1 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				6736D500273D9BA500564FC1 /* Favorite */,
-				6736D4FF273D9B9F00564FC1 /* Search */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		6736D4FF273D9B9F00564FC1 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				6736D503273D9EBD00564FC1 /* SearchRemoteDataSource.swift */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		6736D500273D9BA500564FC1 /* Favorite */ = {
-			isa = PBXGroup;
-			children = (
-				6736D4FB273D96CF00564FC1 /* FavoriteLocalDataSource.swift */,
-			);
-			path = Favorite;
 			sourceTree = "<group>";
 		};
 		6745CD55271FB12A00578268 /* LocalDataSource */ = {
@@ -189,6 +173,7 @@
 		6748E3BA27304F3F00E46499 /* LocalDataSource */ = {
 			isa = PBXGroup;
 			children = (
+				6736D4FB273D96CF00564FC1 /* FavoriteLocalDataSource.swift */,
 				6748E3BB27304F5A00E46499 /* FavoriteLocalDataSourceImpl.swift */,
 			);
 			path = LocalDataSource;
@@ -198,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				67923ED12672A61F0056FCC8 /* SearchAPI.swift */,
+				6736D503273D9EBD00564FC1 /* SearchRemoteDataSource.swift */,
 				67923ED92672B2AF0056FCC8 /* SearchRemoteDataSourceImpl.swift */,
 			);
 			path = RemoteDataSource;
@@ -255,7 +241,7 @@
 				67923EBC26729D8A0056FCC8 /* Data Tests */,
 				67923EB026729D8A0056FCC8 /* Products */,
 				260B9629551F77444E14309F /* Pods */,
-				D309870AB367215EDAA24718 /* Frameworks */,
+				4AD1C987D1965A535B54F1D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -289,12 +275,11 @@
 		67923EC926729E750056FCC8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				6748E3B927304F3000E46499 /* Favorite */,
 				671FE861272DCD5600357032 /* Config */,
-				674C4518272D84E600B520CD /* Factory */,
-				674C4512272D81D300B520CD /* Search */,
-				6736D4F4273D939500564FC1 /* Protocols */,
 				6748E3B52730467000E46499 /* Extensions */,
+				674C4518272D84E600B520CD /* Factory */,
+				6748E3B927304F3000E46499 /* Favorite */,
+				674C4512272D81D300B520CD /* Search */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -346,15 +331,6 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
-		D309870AB367215EDAA24718 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D3E4A340B5AFC4633B20C265 /* Pods_FakefyData.framework */,
-				B2FA8E2E4B5495CBB8F5A9A3 /* Pods_FakefyData_FakefyData_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -372,7 +348,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67923EC326729D8A0056FCC8 /* Build configuration list for PBXNativeTarget "FakefyData" */;
 			buildPhases = (
-				583FA585577690E89D751022 /* [CP] Check Pods Manifest.lock */,
+				9011EAF58D2890BFDF463DE6 /* [CP] Check Pods Manifest.lock */,
 				67923EAA26729D8A0056FCC8 /* Headers */,
 				67923EAB26729D8A0056FCC8 /* Sources */,
 				67923EAC26729D8A0056FCC8 /* Frameworks */,
@@ -383,7 +359,7 @@
 			dependencies = (
 			);
 			name = FakefyData;
-			productName = "touchtunes-sdk";
+			productName = FakefyData;
 			productReference = 67923EAF26729D8A0056FCC8 /* FakefyData.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -391,11 +367,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67923EC626729D8A0056FCC8 /* Build configuration list for PBXNativeTarget "FakefyData Tests" */;
 			buildPhases = (
-				E4C8B778650CFF967DB5F5D8 /* [CP] Check Pods Manifest.lock */,
+				5A857B1E3FD919E8F2254E3C /* [CP] Check Pods Manifest.lock */,
 				67923EB426729D8A0056FCC8 /* Sources */,
 				67923EB526729D8A0056FCC8 /* Frameworks */,
 				67923EB626729D8A0056FCC8 /* Resources */,
-				B650CD23EC8C3B14C23D1B56 /* [CP] Embed Pods Frameworks */,
+				4531C266658BEA9DA4F82BC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -403,7 +379,7 @@
 				67923EBB26729D8A0056FCC8 /* PBXTargetDependency */,
 			);
 			name = "FakefyData Tests";
-			productName = "touchtunes-sdkTests";
+			productName = FakefyData;
 			productReference = 67923EB826729D8A0056FCC8 /* FakefyData Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -463,29 +439,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		583FA585577690E89D751022 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FakefyData-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B650CD23EC8C3B14C23D1B56 /* [CP] Embed Pods Frameworks */ = {
+		4531C266658BEA9DA4F82BC6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -502,7 +456,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FakefyData-FakefyData Tests/Pods-FakefyData-FakefyData Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E4C8B778650CFF967DB5F5D8 /* [CP] Check Pods Manifest.lock */ = {
+		5A857B1E3FD919E8F2254E3C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,6 +472,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-FakefyData-FakefyData Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9011EAF58D2890BFDF463DE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FakefyData-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -698,7 +674,7 @@
 		};
 		67923EC426729D8A0056FCC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 729BC9B57BA3906F67625FE8 /* Pods-FakefyData.debug.xcconfig */;
+			baseConfigurationReference = C9A432A8BF7458D16D5A17C3 /* Pods-FakefyData.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -730,7 +706,7 @@
 		};
 		67923EC526729D8A0056FCC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 750D1048F4490A87913C0E2C /* Pods-FakefyData.release.xcconfig */;
+			baseConfigurationReference = FC8A9BF7E03AEAA81903196E /* Pods-FakefyData.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -761,7 +737,7 @@
 		};
 		67923EC726729D8A0056FCC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A24DD51E4DBC10AE9C9EF97 /* Pods-FakefyData-FakefyData Tests.debug.xcconfig */;
+			baseConfigurationReference = 27867717063193472441C921 /* Pods-FakefyData-FakefyData Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Manual;
@@ -783,7 +759,7 @@
 		};
 		67923EC826729D8A0056FCC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CCB3A4766F7CADAA56DBBEB /* Pods-FakefyData-FakefyData Tests.release.xcconfig */;
+			baseConfigurationReference = 0597EA87547C5094EFFA5802 /* Pods-FakefyData-FakefyData Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Manual;
