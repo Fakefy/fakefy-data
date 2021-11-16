@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		671FE868272DEE4000357032 /* JSONDecoder+AtKeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FE867272DEE4000357032 /* JSONDecoder+AtKeyPath.swift */; };
 		6736D4FC273D96CF00564FC1 /* FavoriteLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736D4FB273D96CF00564FC1 /* FavoriteLocalDataSource.swift */; };
 		6736D504273D9EBD00564FC1 /* SearchRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736D503273D9EBD00564FC1 /* SearchRemoteDataSource.swift */; };
+		673EE348274434680098C26D /* AlbumMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673EE346274434680098C26D /* AlbumMO+CoreDataProperties.swift */; };
+		673EE349274434680098C26D /* AlbumMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673EE347274434680098C26D /* AlbumMO+CoreDataClass.swift */; };
 		6748E3B72730468700E46499 /* Mirror+CopyAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6748E3B62730468700E46499 /* Mirror+CopyAttributes.swift */; };
 		6748E3BC27304F5A00E46499 /* FavoriteLocalDataSourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6748E3BB27304F5A00E46499 /* FavoriteLocalDataSourceImpl.swift */; };
 		6748E3BE27304F6C00E46499 /* FavoriteRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6748E3BD27304F6C00E46499 /* FavoriteRepositoryImpl.swift */; };
@@ -54,6 +56,8 @@
 		671FE867272DEE4000357032 /* JSONDecoder+AtKeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+AtKeyPath.swift"; sourceTree = "<group>"; };
 		6736D4FB273D96CF00564FC1 /* FavoriteLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteLocalDataSource.swift; sourceTree = "<group>"; };
 		6736D503273D9EBD00564FC1 /* SearchRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRemoteDataSource.swift; sourceTree = "<group>"; };
+		673EE346274434680098C26D /* AlbumMO+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AlbumMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		673EE347274434680098C26D /* AlbumMO+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AlbumMO+CoreDataClass.swift"; sourceTree = "<group>"; };
 		6745CD56271FB14100578268 /* FavoriteLocalDataSourceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteLocalDataSourceSpec.swift; sourceTree = "<group>"; };
 		6748E3B62730468700E46499 /* Mirror+CopyAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mirror+CopyAttributes.swift"; sourceTree = "<group>"; };
 		6748E3BB27304F5A00E46499 /* FavoriteLocalDataSourceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteLocalDataSourceImpl.swift; sourceTree = "<group>"; };
@@ -137,6 +141,15 @@
 			path = Repository;
 			sourceTree = "<group>";
 		};
+		673EE3452744341D0098C26D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				673EE347274434680098C26D /* AlbumMO+CoreDataClass.swift */,
+				673EE346274434680098C26D /* AlbumMO+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6745CD55271FB12A00578268 /* LocalDataSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +186,7 @@
 		6748E3BA27304F3F00E46499 /* LocalDataSource */ = {
 			isa = PBXGroup;
 			children = (
+				673EE3452744341D0098C26D /* Model */,
 				6736D4FB273D96CF00564FC1 /* FavoriteLocalDataSource.swift */,
 				6748E3BB27304F5A00E46499 /* FavoriteLocalDataSourceImpl.swift */,
 			);
@@ -510,12 +524,14 @@
 				6748E3BC27304F5A00E46499 /* FavoriteLocalDataSourceImpl.swift in Sources */,
 				6748E3BE27304F6C00E46499 /* FavoriteRepositoryImpl.swift in Sources */,
 				67923EDA2672B2AF0056FCC8 /* SearchRemoteDataSourceImpl.swift in Sources */,
+				673EE348274434680098C26D /* AlbumMO+CoreDataProperties.swift in Sources */,
 				67EF2CE02728376800BC4996 /* DataModel.xcdatamodeld in Sources */,
 				6748E3B72730468700E46499 /* Mirror+CopyAttributes.swift in Sources */,
 				674C4517272D82C500B520CD /* SearchRepositoryImpl.swift in Sources */,
 				67923EE32672B9B70056FCC8 /* DataSourceFactory.swift in Sources */,
 				674C451B272D85E000B520CD /* RepositoryFactory.swift in Sources */,
 				67923ED42672A7040056FCC8 /* ITunesConfig.swift in Sources */,
+				673EE349274434680098C26D /* AlbumMO+CoreDataClass.swift in Sources */,
 				6736D504273D9EBD00564FC1 /* SearchRemoteDataSource.swift in Sources */,
 				6736D4FC273D96CF00564FC1 /* FavoriteLocalDataSource.swift in Sources */,
 				67923ED22672A61F0056FCC8 /* SearchAPI.swift in Sources */,

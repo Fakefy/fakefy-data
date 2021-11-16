@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="AlbumMO" representedClassName=".AlbumMO" syncable="YES" codeGenerationType="class">
+    <entity name="AlbumMO" representedClassName="AlbumMO" syncable="YES">
         <attribute name="artistId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="artistName" attributeType="String"/>
         <attribute name="artistViewUrl" attributeType="String"/>
