@@ -9,8 +9,8 @@ import FakefyDomain
 
 public class RepositoryFactory {
     
-    public func makeSearchRepository() -> SearchRepository {
-        return RepositoryFactory.makeSearchRepository()
+    public static func makeSearchRepository() -> SearchRepository {
+        return RepositoryFactory.makeSearchRepository(remoteDataSource: DataSourceFactory.makeSearchRemoteDataSource())
     }
     
     static func makeSearchRepository(remoteDataSource: SearchRemoteDataSource = DataSourceFactory.makeSearchRemoteDataSource()) -> SearchRepository {
