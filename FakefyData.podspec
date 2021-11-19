@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = "FakefyData"
-  spec.version       = "0.0.4"
+  spec.version       = "0.0.5"
   spec.summary       = "Fakefy Data"
   spec.description   = "Fakefy Data module"
 
@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
 
   spec.dependency "Moya", "14.0.0"
-  spec.dependency "FakefyDomain", "0.0.4"
+  spec.dependency "FakefyDomain", "0.0.5"
 end
